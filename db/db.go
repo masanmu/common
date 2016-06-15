@@ -16,6 +16,8 @@ type GraphTagEndpoint struct {
 // graph.endpoint_counter
 type GraphEndpointCounter struct {
 	Id         int64
+	Step       int64
+	Type       string
 	EndpointId int64
 	Counter    string
 }
